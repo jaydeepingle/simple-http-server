@@ -16,8 +16,8 @@ Resource Directory exists<br/>
 Address: localhost/127.0.0.1<br/>
 Port: 10080<br/>
 --------------------------------------------------------------------------------------------
-
-Alternate Steps to Run:
+<br/>
+Alternate Steps to Run:<br/>
 ```javac Daemon.java```<br/>
 ```java Daemon```<br/>
 Resource Directory exists<br/>
@@ -28,6 +28,7 @@ In case there is no www dir it will show output as follows<br/>
 Resource Directory does not exist<br/>
 Exiting...<br/>
 --------------------------------------------------------------------------------------------
+<br/>
 Output : <br/>
 Server Side output: <br/>
 Resource Directory exists<br/>
