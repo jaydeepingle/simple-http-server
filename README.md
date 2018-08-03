@@ -11,20 +11,20 @@ and get all the mime types available in the dir.<br/>
 --------------------------------------------------------------------------------------------<br/>
 <br/>
 Steps to Run:<br/>
-```java -jar server.jar```<br/>
+java -jar server.jar<br/>
 Resource Directory exists<br/>
 Address: localhost/127.0.0.1<br/>
 Port: 10080<br/>
 --------------------------------------------------------------------------------------------
 <br/>
 Alternate Steps to Run:<br/>
-```javac Daemon.java```<br/>
-```java Daemon```<br/>
+javac Daemon.java<br/>
+java Daemon<br/>
 Resource Directory exists<br/>
 Address: localhost/127.0.0.1<br/>
 Port: 10080<br/>
 In case there is no www dir it will show output as follows<br/>
-```java Daemon```<br/>
+java Daemon<br/>
 Resource Directory does not exist<br/>
 Exiting...<br/>
 --------------------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ sample.pdf                           <br/>
 <br/>
 2. Run using curl
 <br/>
-```curl -i http://127.0.0.1:35942/sample.txt```<br/>
+curl -i http://127.0.0.1:35942/sample.txt<br/>
 HTTP/1.1 200 OK<br/>
 Server: OpenJDK 64-Bit Server VM<br/>
 Date: Wed, 07 Sep 2016 10:00:37 EDT<br/>
@@ -78,7 +78,7 @@ However, if you are seeing this message, it means you have not configured the re
 
 Running using make<br/>
 <br/>
-```make compile```<br/>
+make compile<br/>
 <br/>
 javac Daemon.java<br/>
 echo Main-Class: Daemon > MANIFEST.MF<br/>
@@ -90,7 +90,7 @@ adding: Daemon$Response.class(in = 5508) (out= 2962)(deflated 46%)<br/>
 adding: Daemon.class(in = 3901) (out= 2114)(deflated 45%)<br/>
 <br/>
 <br/>
-```make run```<br/>
+make run<br/>
 <br/>
 java -jar server.jar<br/>
 Resource Directory exists<br/>
