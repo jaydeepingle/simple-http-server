@@ -8,7 +8,8 @@ and get all the mime types available in the dir.<br/>
 1. HttpConnection class handles the multiple clients using multithreading.<br/>
 2. Request class processes the request from client. It determines the method type and will move ahead.<br/>
 3. Response class handles the Response part which includes the header fields and the way to send file to a client.<br/>
---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------<br/>
+<br/>
 Steps to Run:<br/>
 ```java -jar server.jar```<br/>
 Resource Directory exists<br/>
